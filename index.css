@@ -2,20 +2,23 @@
     --verde:#95baa8;
     }
 
-    @font-face {
+    /*@font-face {
         font-family: "Crosstenextrabold";
         src: url('/Fonts/Webfonts/crossten_extrabold_macroman/crossten_extrabold-webfont.woff');
         }
         @font-face {
         font-family: "Crosstenextralight";
         src: url(' /Fonts/Webfonts/crossten_extralight_macroman/crossten_extralight-webfont.woff');
-        }
+        }*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body, html {
     width: 100%;
     height: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
 }
 
         /*------------------------MODAL "UNDER CONSTRUCTION"------------*/
